@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="port.css" />
+</head>
+<body>
+
+  
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">Kodeesh</h2>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  
+  <section id="home" class="home">
+    <h1>Hello, I'm <span>Kodeeshwaramoorthi</span></h1>
+    <p>Software Developer | MCA</p>
+  </section>
+
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a frontend developer skilled in HTML, CSS, JavaScript and React.
+      I enjoy building responsive and user-friendly web applications.
+    </p>
+  </section>
+
+  
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">MS Word</div>
+      <div class="skill">Excel</div>
+      <div class="skill">Tally</div>
+      <div class="skill">Full stack</div>
+      <div class="skill">Team Management</div>
+      <div class="skill">Good Communication</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Responsive portfolio using HTML, CSS and JS</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Kodeeshwaramoorthi. All Rights Reserved.</p>
+  </footer>
+
+  <script src="port.js"></script>
+</body>
+</html>
